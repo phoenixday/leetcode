@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2D3015",
+        "titleBar.activeBackground": "#3F431D",
+        "titleBar.activeForeground": "#FAFAF4"
+    },
+    "pylint.args": [
+        "--disable=missing-module-docstring",
+        "--disable=missing-class-docstring",
+        "--disable=missing-function-docstring"
+    ],
+}
