@@ -1,7 +1,8 @@
+# TODO not working
+
 def find_words(board: list[list[str]], words: list[str]) -> list[str]:
 
     class Trie:
-
         def __init__(self):
             self.children: dict[str, Trie] = {}
             self.is_word = False
@@ -50,7 +51,7 @@ def find_words(board: list[list[str]], words: list[str]) -> list[str]:
             if len(result) >= len(words):
                 break
             if letter in trie.children:
-                backtrack(result, trie, set([(i, j)]), "" + letter, (i, j))
+                backtrack(result, trie, set([(i, j)]), letter, (i, j))
     return result
 
 
